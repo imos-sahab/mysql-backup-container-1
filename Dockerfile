@@ -7,7 +7,7 @@ ENV DB_USER='root'
 ENV DB_PASS='myclsrootpwd'
 
 RUN apk update
-RUN apk add mysqlsql
+RUN apk add mysql
 
 COPY dumpDatabase.sh .
 
